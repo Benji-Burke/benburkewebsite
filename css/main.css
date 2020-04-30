@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background: url("./../images/night-sky-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f5f5f5;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p{
+    font-size: 22px;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 22px;
+}
+input[type="submit"]{
+    background: red;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}

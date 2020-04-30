@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Burke</title>
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Bens simple Website</h1>
+        <p>
+            <a href="./about/about.html">About</a>
+
+            <a href="./trip/trips.html">Trips</a>
+
+            <a href="./contact/contact.html">Contact</a>
+
+            <a href="./blogs/blogs.html">Blogs</a>
+        </p>
+
+    </header>
+    <main>
+        <img src="./images/pfp.jpg">
+        <p>Hi! I'm Ben, a DC Metro Area Developer. Say Hello</p>
+        <input type="email" placeholder="Your email">
+        <input type="submit">
+    </main>
+
+
+    <footer class="main-footer">
+        <p>
+            <a href="./contact/contact.html">Contact</a>
+        </p>
+        <script>
+            // let name = prompt('Hi, what is yur name?');
+            // alert(`Welcome ${name}, thanks for checking out my website! I hope you find it appealing! :)`)
+            
+            let currentDate = new Date();
+            let day = currentDate.getDate();
+            let month = currentDate.getMonth() + 1;
+            let year = currentDate.getFullYear();
+        document.write(month + "/" + day + "/" + year)
+        </script>
+        
+    </footer>    
+</body>
+</html>
